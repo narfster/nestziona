@@ -13,6 +13,7 @@ title: Home
     <a href="{{ site.github.url }}{{ post.url }}"><img src="{{ site.github.url }}/assets/img/{{ post.image }}"></a>
   </div>
   {% endif %}
+  <article dir="rtl">
   <p>
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">קרא עוד</a>
     <span class="post-date">
@@ -24,6 +25,7 @@ title: Home
        -->
     </span>
   </p>
+    </article>
 </div>
 {% endfor %}
 
