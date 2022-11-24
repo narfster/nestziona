@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Resources"
+title: "כותרת מדהימה"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
