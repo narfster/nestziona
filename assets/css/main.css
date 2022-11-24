@@ -145,8 +145,9 @@ hr {
 
 .posts {
   margin-bottom: 5rem;
-  padding-right: 0px;
+  padding: 0px;
   list-style: none;
+  direction: rtl;
 }
 
 .post-date {
