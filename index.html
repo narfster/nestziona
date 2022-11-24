@@ -15,6 +15,7 @@ title: Home
   {% endif %}
   <p>
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">קרא עוד</a>
+    <i  aria-hidden="true"></i> {{ post.date | date_to_string }}
     <span class="post-date">
       <i  aria-hidden="true"></i> {{ post.date | date_to_string }} - <br/>
       <i  aria-hidden="true"></i> {% include read-time.html %} 
