@@ -17,7 +17,7 @@ title: Writing
     {% endunless %}
 
     <li itemscope>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a><br>
+      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
     </li>
 
   {% endfor %}
