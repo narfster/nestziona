@@ -156,8 +156,7 @@ hr {
   color: #9a9a9a;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size:0.8rem;
-  direction: rtl;
-  float:right
+  display:inline;
   
 }
 
