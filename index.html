@@ -17,7 +17,7 @@ title: Home
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">קרא עוד</a>
     <span class="post-date">
       <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - 
-      <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
+      <p><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     </span>
   </p>
 </div>
