@@ -24,7 +24,7 @@ pagination:
   next_page: 'הבא'
   previous_page: 'הקודם'
 
-sharing_button_prompt: 'שתפו אותי'
+sharing_button_prompt: 'שתפו אותי | '
 
 related_posts: 'אולי תתעניין גם ב :'
 
