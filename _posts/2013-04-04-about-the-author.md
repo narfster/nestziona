@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About the Author"
+title: "עוד כותרת שאין עליה"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
